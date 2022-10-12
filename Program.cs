@@ -6,8 +6,8 @@ namespace LineComparisonProblem
     {
         public static void Main(string[] args)
         {
-            LengthOfLine length = new LengthOfLine();
-            length.CalculateLength();
+            LineEquality line = new LineEquality();
+            line.CheckTwoLines();
         }
     }
 }
